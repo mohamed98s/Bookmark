@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/97d53b9f19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 >Bookmark</h1>
+    <div class="crud">
+        <h2 >Bookmark your favorite sites</h2>
+        <div class="add-data">
+            
+                <i class="fa-solid fa-book-bookmark"></i>
+                <label for="site-name">Site Name</label>
+                <input class="form-control" type="text" id="site-name" placeholder="Bookmark Name">
+            
+            
+                <i class="fa-solid fa-link"></i>
+                <label for="site-link">Site URL</label>
+                <input class="form-control" type="url" id="site-link" placeholder="Website URL">
+            
+            <div class="btn-wrapper">
+                <button id="adder">Sumbit</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="t-body">
+            
+        </tbody>
+    </table>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
